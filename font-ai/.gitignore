@@ -1,0 +1,27 @@
+# ============================================================
+# .gitignore for font-ai project
+# ============================================================
+
+# --- Data: raw font files are too large to commit ---
+data/raw_fonts/
+
+# --- Model weights (large binary files) ---
+*.pth
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Node / Webapp ---
+node_modules/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+*.swp
